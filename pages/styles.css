@@ -1,0 +1,377 @@
+/*COLORS
+#E7984E
+#04AA6D
+#15bcc7
+#A3C4CF Light Blue
+*/
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+}
+p {
+  font-size: 20px;
+}
+/*HEADER*/
+.bg-light {
+    background-color: #fff !important;
+}
+
+.special {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    margin: 0px;
+}
+
+.special h3 {
+
+}
+
+.contact {
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar-brand img {
+  width: 200px;
+}
+.header {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.navbar {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+}
+/*Desktop Mode*/
+@media (min-width: 48em) {
+    .posts {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
+    }
+
+    .post img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .navbar-nav {
+        margin-left: auto!important;
+        margin-right: 0!important;
+    }
+    .infocontainer {
+      display: flex;
+      justify-content: center;
+      background-color: lightgray;
+      padding: 50px 0px;
+    }
+    .infocontaineraboutus {
+      display: flex;
+      justify-content: center;
+      background-color: lightgray;
+      padding: 0px 0px;
+      margin-top: -90px;
+    }
+    .infobox {
+      display: flex;
+      flex-direction: row;
+      width: 1200px;
+      justify-content: space-between;
+      padding: 30px 20px;
+      margin: auto auto;
+    }
+    .aboutusbox {
+      display: flex;
+      flex-direction: row;
+      max-width: 1300px;
+      text-align: center;
+      align-items: flex-start;
+    }
+    .aboutusbox p {
+      text-align: left;
+    }
+    .aboutuscontent {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 40px;
+      max-width: 700px;
+    }
+    .cloudimage img {
+      height: auto;
+      width: 250px;
+    }
+    .shareimage img {
+      max-width: 100%;
+      height: auto;
+
+    }
+    .infocontent {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-right: 20px;
+      max-width: 700px;
+    }
+
+    .participatebox {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      max-width: 1000px;
+      text-align: center;
+    }
+    .accesscontent {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      max-width: 700px;
+      text-align: center;
+      background-color: #15bcc7;
+      padding: 0px 30px;
+      margin-left: 20px;
+    }
+    .participatecontainer {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding: 70px 0px;
+    }
+    .parbuttoncontainer {
+      display: flex;
+      flex-direction: row;
+    }
+    .parboxb {
+        margin: 0px 10px;
+    }
+    .footer {
+    }
+    .footerbox {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      text-align: center;
+      padding: 20px 0px;
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .footerbox img {
+      max-height: 30px;
+    }
+    .footerbox p {
+      max-width: 400px;
+      text-align: left;
+      padding: 10px 0px;
+    }
+    .footercontent {
+      margin-right: 20px;
+    }
+    .rights p {
+      text-align: right;
+      font-size: 12px;
+    }
+}
+/*Mobile View*/
+@media (max-width: 47.9em) {
+  .post img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      padding: 10px 0px;
+  }
+  .infobox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 20px;
+    padding: 50px 0px;
+  }
+  .aboutusbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 20px;
+    padding: 50px 0px;
+  }
+  .cloudimage img {
+    object-fit: cover;
+  }
+  .shareimage img {
+    max-width: 100%;
+    height: auto;
+  }
+  .infocontainer {
+    background-color: lightgray;
+  }
+  .exampledata {
+    margin-bottom: 50px;
+  }
+  .accesscontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 40px;
+  }
+  .participatecontainer {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    padding: 40px 20px;
+  }
+  .parbuttoncontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+  }
+  .parboxb {
+    margin: 10px 0px;
+  }
+  .footerbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 20px 10px;
+  }
+  .footerbox img {
+    max-height: 60px;
+    padding: 10px 0px;
+  }
+  .rights p {
+    text-align: center;
+    font-size: 12px;
+  }
+}
+
+.exampledata {
+  border: 2px solid black;
+  height: 300px;
+  min-width: 350px;
+}
+.standardbutton {
+  background-color: #E7984E;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 170px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.standardbutton a {
+  text-decoration: none;
+  color: white;
+}
+.accesscontent {
+  border-radius: 10px;
+  background-color: #15bcc7;
+}
+.accesscontent p {
+  text-align: left;
+}
+.participatebox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px;
+}
+.participatecontent {
+  margin: 0px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.parboxb {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  padding: 20px 40px;
+  border: 2px solid white;
+  border-radius: 10px;
+  max-width: 450px;
+}
+.Newsletter {
+  display: flex;
+  flex-direction: column;
+}
+form.subscribe {
+  padding-bottom: 20px;
+}
+.footercontent p {
+  font-size: 15px;
+}
+form.cloud input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  height: 45px;
+  background: #f1f1f1;
+  margin: 50px 0px 20px 0px;
+}
+
+form.cloud button {
+  float: left;
+  width: 20%;
+  height: 45px;
+  padding: 10px;
+  background: #15bcc7;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  margin: 50px 0px 20px 0px;
+}
+
+form.cloud button:hover {
+  background: #0b7dda;
+}
+
+form.cloud::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.post img {
+  border-radius: 10px;
+}
+.posts {
+  margin-bottom: 20px;
+}
+.surveypost {
+  border: 2px solid black;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  text-align: center;
+  height: 200px;
+}
+
+.shareimage img {
+  border-radius: 10px;
+}
+.exampledata {
+  border-radius: 10px;
+}
