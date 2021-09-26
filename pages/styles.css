@@ -11,7 +11,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: #fff;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 p {
   font-size: 20px;
@@ -49,6 +49,9 @@ p {
   margin-left: auto;
   margin-right: auto;
   max-width: 1200px;
+}
+.nav-item a {
+  font-size: 20px;
 }
 /*Desktop Mode*/
 @media (min-width: 48em) {
@@ -176,7 +179,7 @@ p {
     .footercontent {
       margin-right: 20px;
     }
-    .rights p {
+    .rights p, a {
       text-align: right;
       font-size: 12px;
     }
@@ -251,7 +254,7 @@ p {
     max-height: 60px;
     padding: 10px 0px;
   }
-  .rights p {
+  .rights p, a {
     text-align: center;
     font-size: 12px;
   }
@@ -274,11 +277,14 @@ p {
   width: 170px;
   cursor: pointer;
   border-radius: 10px;
+
 }
 .standardbutton a {
   text-decoration: none;
   color: white;
+  font-size: 16px;
 }
+
 .accesscontent {
   border-radius: 10px;
   background-color: #15bcc7;
@@ -368,10 +374,46 @@ form.cloud::after {
   text-align: center;
   height: 200px;
 }
-
+.sharepost {
+  border: 2px solid black;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  text-align: left;
+  height: 100px;
+  padding: 0px 10px;
+}
 .shareimage img {
   border-radius: 10px;
 }
 .exampledata {
   border-radius: 10px;
+}
+.sharebutton {
+  background-color: #E7984E;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: auto;
+  cursor: pointer;
+  border-radius: 10px;
+  margin: 10px 20px;
+}
+.sharebutton a {
+  text-decoration: none;
+  color: white;
+}
+.shareheaderbox {
+  background-color: #A3C4CF;
+}
+.shareheader {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+  justify-content: space-around;
 }
