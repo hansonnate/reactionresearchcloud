@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+      <meta charset='UTF-8' />
+      <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+      <title>The Research Cloud</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+      <link rel='stylesheet' href='/pages/styles.css' />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="/images/Reactionlogo.png" alt="ReactionLogo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pages/research.html">Research</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pages/participate.html">Participate</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/pages/share.html">Share</a>
+                        </li>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="shareheaderbox">
+      <div class="shareheader">
+        <button class="sharebutton">Peers</button>
+        <button class="sharebutton">Saved Research</button>
+        <button class="sharebutton">Create</button>
+      </div>
+    </div>
+    <form class="cloud" action="/action_page.php" style="margin:auto; max-width:1000px">
+      <input type="text" placeholder="Search Conversations..." name="search2">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+    <div class="posts">
+        <div class="sharepost">
+            <p> Nate Hanson <br> Recent Share: Mental Health Survey Results <br> Recent Message: "Hey check this out!"</p>
+        </div>
+        <div class="sharepost">
+            <p> Converstion Link #2</p>
+        </div>
+        <div class="sharepost">
+            <p> Converstion Link #3</p>
+        </div>
+        <div class="sharepost">
+            <p> Converstion Link #4</p>
+        </div>
+        <div class="sharepost">
+            <p> Converstion Link #5</p>
+        </div>
+        <div class="sharepost">
+            <p> And More Converstion Links...</p>
+        </div>
+    </div>
+    <div class="footer" style="background-color: lightgray;">
+      <div class="footerbox">
+        <div class="footercontent">
+          <img src="/images/Reactionlogo.png" alt="ReactionLogo">
+          <p> Leave us your name and email and we will update you when new
+            research and opportunities are available. </p>
+        </div>
+        <div class="Newsletter">
+          <form class="subscribe">
+            <label for="fname">Full Name:</label><br>
+            <input type="text" id="fname" name="fname" value=""><br>
+            <label for="lname">Email:</label><br>
+            <input type="text" id="lname" name="lname" value="">
+          </form>
+          <button class="standardbutton"><a href="#"></a>Subscribe</button>
+        </div>
+      </div>
+    </div>
+    <div class="rights">
+      <p>© 2021 REACTION DATA, INC. ALL RIGHTS RESERVED. 1139 SOUTH OREM BLVD. OREM, UT 84058 <br> <a href="https://github.com/hansonnate/reactionresearchcloud">Githublink</a></p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
+  </body>
+</html>
