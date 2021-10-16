@@ -183,6 +183,24 @@ p {
       text-align: right;
       font-size: 12px;
     }
+    .covidformbox {
+      text-align: center;
+    }
+    .covidbox {
+      text-align: center;
+    }
+    #coviddata {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 10px 20px;
+      min-width: 300px;
+    }
+    .coviddatabox {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
 }
 /*Mobile View*/
 @media (max-width: 47.9em) {
@@ -230,7 +248,7 @@ p {
   .participatecontainer {
     display: flex;
     flex-direction: column;
-    height: 800px;
+    height: 1000px;
     padding: 40px 20px;
   }
   .parbuttoncontainer {
@@ -258,7 +276,27 @@ p {
     text-align: center;
     font-size: 12px;
   }
+  .covidform {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+  }
+  .covidformbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  #coviddata {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px;
+  }
 }
+ #coviddata p {
+   color: white;
+ }
 
 .exampledata {
   border: 2px solid black;
@@ -416,4 +454,13 @@ form.cloud::after {
   margin-right: auto;
   max-width: 600px;
   justify-content: space-around;
+}
+
+.bitbuttonbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#coviddata h2 {
+  color: white;
 }
